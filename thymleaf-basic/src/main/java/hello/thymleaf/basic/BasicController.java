@@ -1,6 +1,10 @@
 package hello.thymleaf.basic;
 
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import lombok.Data;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -57,4 +61,24 @@ public class BasicController {
             this.age = age;
         }
     }
+
+    // 기본 객체들 등록
+    @GetMapping("/basic-objects")
+    public String basicObjects(Model model, HttpServletRequest request,
+                               HttpServletResponse response, HttpSession session) {
+        session.setAttribute("sessionData", "Hello Session");
+        model.addAttribute("request", request);
+        model.addAttribute("response", response);
+        model.addAttribute("servletContext", request.getServletContext());
+        return "basic/basic-objects";
+    }
+
+    // helloBean 스프링 빈 직접 등록
+    @Component("helloBean")
+    static class HelloBean {
+        public String hello(String data) {
+            return "Hello " + data;
+        }
+    }
+
 }
