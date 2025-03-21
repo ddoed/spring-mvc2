@@ -21,10 +21,11 @@ import java.util.Map;
 @Slf4j
 @Controller
 @RequestMapping("/validation/v2/items")
-@RequiredArgsConstructor
+@RequiredArgsConstructor // 생성자 자동 생성, 생성자가 하나일 경우 자동 주입 (생성자가 하나일 경우 생략 가능)
 public class ValidationItemControllerV2 {
 
     private final ItemRepository itemRepository;
+    private final ItemValidator itemValidator;
 
     @GetMapping
     public String items(Model model) {
@@ -49,36 +50,13 @@ public class ValidationItemControllerV2 {
     @PostMapping("/add")
     public String addItem(@ModelAttribute Item item, BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
 
-        if (bindingResult.hasErrors()) {
-            log.info("errors: {}", bindingResult);
-            return "validation/v2/addForm";
-        }
-        // 검증 로직
-        ValidationUtils.rejectIfEmptyOrWhitespace(bindingResult, "itemName", "required");
-        //if (!StringUtils.hasText(item.getItemName())) {
-        //    bindingResult.rejectValue("itemName", "required");
-        //}
-        if (item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000) {
-            bindingResult.rejectValue("price", "range", new Object[]{1000, 1000000}, null);
-        }
-        if (item.getQuantity() == null || item.getQuantity() >= 9999) {
-            bindingResult.rejectValue("quantity", "max", new Object[]{9999}, null);
-        }
+        itemValidator.validate(item, bindingResult);
 
-        // 복합 검증
-        if (item.getPrice() != null && item.getQuantity() != null) {
-            int resultPrice = item.getPrice() * item.getQuantity();
-            if (resultPrice < 10000) {
-                bindingResult.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
-            }
-        }
-        
         // 검증에 실패하면 다시 입력 폼으로 돌아감
         if (bindingResult.hasErrors()) {
             log.info("errors: {}", bindingResult);
             return "validation/v2/addForm";
         }
-
         // 검증 성공 로직
         Item savedItem = itemRepository.save(item);
         redirectAttributes.addAttribute("itemId", savedItem.getId());
