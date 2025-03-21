@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9c71f48-45ca-41c7-a561-b6752d131527" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/thymleaf-basic.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/domain/item/DeliveryCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/domain/item/ItemType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/java/hello/itemservice/web/form/FormItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/templates/form/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/templates/form/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/templates/form/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/main/resources/templates/form/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/form/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/TestDataInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/domain/item/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/domain/item/ItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/java/hello/itemservice/web/message/MessageItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/editForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/main/resources/templates/message/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/test/java/hello/itemservice/ItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/test/java/hello/itemservice/domain/item/ItemRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/src/test/java/hello/itemservice/message/MessageSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/java/hello/thymleaf/ThymleafBasicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/java/hello/thymleaf/basic/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/java/hello/thymleaf/basic/TemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/attribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/basic-objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/block.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/condition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/each.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/literal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/operation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/text-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/text-unescaped.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/basic/variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/fragment/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/fragment/fragmentMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/layout/layoutMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/layoutExtend/layoutExtendMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/main/resources/templates/template/layoutExtend/layoutFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymleaf-basic/src/test/java/hello/thymleaf/ThymleafBasicApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/validation">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ddoed"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ddoed/spring-mvc2.git",
+    "accountId": "45a6fa07-c627-4a82-b752-827f68d341b7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ubkFLZvD00QthMO2tqRIhE1T4i" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="validation.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9c71f48-45ca-41c7-a561-b6752d131527" name="Changes" comment="" />
+      <created>1742524560469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742524560469</updated>
+      <workItem from="1742524562182" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
