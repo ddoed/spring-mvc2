@@ -2,6 +2,7 @@ package hello.login.web;
 
 import hello.login.domain.member.Member;
 import hello.login.domain.member.MemberRepository;
+import hello.login.web.argumentresolver.Login;
 import hello.login.web.session.SessionManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +29,7 @@ public class HomeController {
     }
 
     @GetMapping("/")
-    public String homeLogin(@SessionAttribute(name=SessionConst.LOGIN_MEMBER, required = false) Member loginMember, Model model) {
+    public String homeLogin(@Login Member loginMember, Model model) {
         
         // 세션에 회원 데이터가 없으면 home으로 이동
         if (loginMember == null) {
